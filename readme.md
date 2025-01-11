@@ -2,7 +2,7 @@
 
 + SSH into the GX device
 + Navigate to the modbus client folder: `cd /opt/victronenergy/dbus-modbus-client`
-+ Download the module: `wget https://raw.githubusercontent.com/pmcgn/dbus-modbus-client-kostal-smartmeter/main/Kostal_SmartEnergyMeter.py`
++ Download the module: `wget https://github.com/Kartax/dbus-modbus-client-kostal-smartmeter/blob/main/Kostal_SmartEnergyMeter.py`
 + Open the file dbus-modbus-client.py in a text editor: `nano dbus-modbus-client.py`
 + Add the instruction `import Kostal_SmartEnergyMeter` behind the other imports
 + Delete python cache: `rm /opt/victronenergy/dbus-modbus-client/__pycache__/dbus-modbus-client.cpython-38.pyc`
