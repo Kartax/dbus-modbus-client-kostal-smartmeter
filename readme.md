@@ -8,6 +8,8 @@
 + Delete python cache: `rm /opt/victronenergy/dbus-modbus-client/__pycache__/dbus-modbus-client.cpython-38.pyc`
 + Restart the GX device via `reboot`
 
++ Alternatively use the install script: `wget -q -O - "https://raw.githubusercontent.com/Kartax/dbus-modbus-client-kostal-smartmeter/main/install.sh" | sh`
+
 ## Usage
 
 Open the GX Webinterface and navigate to Settings -> Modbus TCP Devices and trigger a Scan. It should now be able to find the KSEM. If the automatic detection does not work, go to Devices and press Add, to add the KSEM IP manually.
