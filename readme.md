@@ -8,7 +8,7 @@
 + Delete python cache: `rm /opt/victronenergy/dbus-modbus-client/__pycache__/dbus-modbus-client.cpython-38.pyc`
 + Restart the GX device via `reboot`
 
-+ Alternatively use the install script: `wget -q -O - "https://raw.githubusercontent.com/Kartax/dbus-modbus-client-kostal-smartmeter/main/install.sh" | sh`
+Alternatively you can use the install script: `wget -q -O - "https://raw.githubusercontent.com/Kartax/dbus-modbus-client-kostal-smartmeter/main/install.sh" | sh`
 
 ## Usage
 
